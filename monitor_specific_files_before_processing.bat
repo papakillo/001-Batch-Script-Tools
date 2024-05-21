@@ -1,5 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
+rem author: Benjamin Ohene-Adu
+rem Ben.aduohene@gmail.com
+rem 21st May 2024
+rem Description: This script monitors specific files before running a SQL Server Agent job. The script will wait for the    
 
 :: Set variables
 set "folderPath=\\bhxappfs01\InhouseApps\UAT\Blue Yonder\Outbound"  REM Path to the folder to monitor
